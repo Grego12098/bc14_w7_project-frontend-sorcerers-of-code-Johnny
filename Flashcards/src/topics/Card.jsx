@@ -70,7 +70,7 @@ export default function Card({ cards }) {
 				{currentCardIndex > 0 && <button onClick={handlePrevCard}>Prev</button>}
 				{/* Render the Next button if the current card is not the last card */}
 				{currentCardIndex < cards.length - 2 && (
-					<button onClick={handleNextCard}>Next</button>
+					<button onClick={handleNextCard} id="next-button">Next</button>
 				)}
 			</div>
 		</>
