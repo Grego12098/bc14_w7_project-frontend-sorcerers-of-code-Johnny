@@ -7,5 +7,7 @@ describe('AudioPlayer_function', () => {
 	it('test_audio_player_renders_without_errors', () => {
 		render(<AudioPlayer />);
 		expect(screen.getByText('Study Music')).toBeInTheDocument();
+        // const audioElements = screen.getAllByRole('audio');
+        // expect(audioElements).toHaveLength(3);
 	});
 });

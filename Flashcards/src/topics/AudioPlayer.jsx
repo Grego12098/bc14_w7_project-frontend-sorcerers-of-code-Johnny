@@ -4,7 +4,21 @@ import song2 from '../topics/music/Vassily_Primakov_piano-Felix_Mendelssohn_Song
 import song3 from '../topics/music/MusicianStringTrio.mp3';
 
 const AudioPlayer = () => {
-	// const audio1 = useRef(null);
+
+	return (
+		<div className=''>
+			<h2>Study Music</h2>
+			<audio src={song} controls />
+			<audio src={song2} controls />
+			<audio src={song3} controls />
+		</div>
+	);
+};
+
+export default AudioPlayer;
+
+
+// const audio1 = useRef(null);
 	// function handleAudio() {
 	// 	console.log('hello', audio1.current);
 	// 	audio1.current.pause();
@@ -53,15 +67,3 @@ const AudioPlayer = () => {
 	// 		audio.pause();
 	// 	}
 	// };
-
-	return (
-		<div className=''>
-			<h2>Study Music</h2>
-			<audio src={song} controls />
-			<audio src={song2} controls />
-			<audio src={song3} controls />
-		</div>
-	);
-};
-
-export default AudioPlayer;

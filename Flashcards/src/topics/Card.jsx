@@ -67,7 +67,7 @@ export default function Card({ cards }) {
 			{/* Render a container for the Prev and Next buttons */}
 			<div className='button-container'>
 				{/* Render the Prev button if the current card is not the first card */}
-				{currentCardIndex > 0 && <button onClick={handlePrevCard}>Prev</button>}
+				{currentCardIndex > 0 && <button onClick={handlePrevCard} id="prev-button">Prev</button>}
 				{/* Render the Next button if the current card is not the last card */}
 				{currentCardIndex < cards.length - 2 && (
 					<button onClick={handleNextCard} id="next-button">Next</button>
