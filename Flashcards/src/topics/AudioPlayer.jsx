@@ -4,13 +4,12 @@ import song2 from '../topics/music/Vassily_Primakov_piano-Felix_Mendelssohn_Song
 import song3 from '../topics/music/MusicianStringTrio.mp3';
 
 const AudioPlayer = () => {
-
 	return (
-		<div className=''>
+		<div className='songs'>
 			<h2>Study Music</h2>
-			<audio src={song} controls />
-			<audio src={song2} controls />
-			<audio src={song3} controls />
+			<audio key='song1' src={song} controls />
+			<audio key='song2' src={song2} controls />
+			<audio key='song3' src={song3} controls />
 		</div>
 	);
 };
