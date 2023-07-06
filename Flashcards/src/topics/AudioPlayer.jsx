@@ -7,9 +7,9 @@ const AudioPlayer = () => {
 	return (
 		<div className='songs'>
 			<h2>Study Music</h2>
-			<audio key='song1' src={song} controls />
-			<audio key='song2' src={song2} controls />
-			<audio key='song3' src={song3} controls />
+				<audio data-testid="song1-audio" key="song1" src={song} controls />
+				<audio data-testid="song2-audio" key="song2" src={song2} controls />
+				<audio data-testid="song3-audio" key="song3" src={song3} controls />
 		</div>
 	);
 };
