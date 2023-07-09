@@ -44,6 +44,7 @@ describe('AudioPlayer', () => {
     });
 });
 
+// add comment to redeploy
 // IS IT NECESSARY TO TEST PAUSE AND PLAY BUTTONS??
 // test('fires play event when play button is clicked', async () => {
 //     render(<AudioPlayer />);
