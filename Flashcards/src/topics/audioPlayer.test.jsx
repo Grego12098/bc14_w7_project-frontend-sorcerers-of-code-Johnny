@@ -1,4 +1,4 @@
-import { render, screen, waitFor, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { describe, test, expect } from 'vitest';
 import '@testing-library/jest-dom/extend-expect';
 import AudioPlayer from './AudioPlayer';
@@ -44,7 +44,7 @@ describe('AudioPlayer', () => {
     });
 });
 
-// add comment to redeploy
+// waitFor, fireEvent
 // IS IT NECESSARY TO TEST PAUSE AND PLAY BUTTONS??
 // test('fires play event when play button is clicked', async () => {
 //     render(<AudioPlayer />);
