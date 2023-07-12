@@ -1,3 +1,5 @@
+Netlify deployment: https://64abca34d3e3fb0008a86bb2--spiffy-ganache-db75db.netlify.app/
+
 # frontend-project
 
 ## Overview
