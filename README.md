@@ -1,4 +1,4 @@
-Netlify deployment:codecards-jg.netlify.app
+Netlify deployment:  codecards-jg.netlify.app
 
 # frontend-project
 
@@ -9,6 +9,11 @@ By having one app to keep flashcards as well as useful links for various topics,
 
 ## User Story
 ```As a bootcamper, I want to be able to easily access flashcards on the weekly topics, so that I can save time and continue learning on my own schedule, using this method to build my knowledge and help me when solving coding challenges & building projects.``` 
+
+## Contributors
+<a href="https://github.com/mz0121coder">Mohammad Zafar</a>
+<a href="https://github.com/saadash1268">Saad Ashraf</a>
+<a href="https://github.com/Miadowne">Mia Downe</a>
 
 ## User Journey
 
