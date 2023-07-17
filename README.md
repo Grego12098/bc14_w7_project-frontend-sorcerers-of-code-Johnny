@@ -1,5 +1,7 @@
 <a href="codecards-jg.netlify.app">Netlify deployment</a> <br>
 
+codecards-jg.netlify.app
+
 # frontend-project
 Welcome to CODECARDS 
 
