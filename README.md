@@ -1,3 +1,5 @@
+Netlify deployment:codecards-jg.netlify.app
+
 # frontend-project
 
 ## Overview
