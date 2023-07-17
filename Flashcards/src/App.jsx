@@ -11,7 +11,6 @@ function App() {
 	const handleReactClick = () => navigate('/React');
 
 	return (
-		// <a href="https://storyset.com/web">Web illustrations by Storyset</a>
 		<div className='container'>
 			<img
 				src={logo}

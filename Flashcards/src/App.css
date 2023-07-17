@@ -100,16 +100,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
-  /* adjust h1 font size for smaller screens */
   .text-container h1 {
     font-size: 100px;
   }
 }
 
 @media screen and (max-width: 480px) {
-
-  /* adjust h1 font size for even smaller screens */
   .text-container h1 {
     font-size: 60px;
   }
