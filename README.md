@@ -1,6 +1,7 @@
-Netlify deployment:  codecards-jg.netlify.app
+<a href="codecards-jg.netlify.app">Netlify deployment</a> <br>
 
 # frontend-project
+Welcome to CODECARDS 
 
 ## Overview
 During the first 6 weeks of the bootcamp, quizzes have been useful for gauging knowledge and
